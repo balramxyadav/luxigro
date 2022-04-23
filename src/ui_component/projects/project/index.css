@@ -1,0 +1,46 @@
+.project_img_comp {
+    width: 250px;
+    height: 250px;
+    border-radius: 3rem;
+    box-shadow: 0px 4px 8px 0px #B8E7FF;
+}
+
+.project {
+    position: relative;
+    transition:  ease 0.5s;
+}
+
+.project:hover {
+    
+    cursor: pointer;
+  transform: translate(0, -10px);
+  
+}
+
+.title {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: #fff;
+    font-size: 32px;
+}
+
+@media (max-width : 900px) {
+    .project_img_comp {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width:500px) {
+    .project_img_comp {
+        width: 150px;
+        height: 150px;
+        border-radius: 2rem;
+    }
+
+    .title {
+        font-size: 25px;
+        bottom: 1.5rem;
+    }
+}

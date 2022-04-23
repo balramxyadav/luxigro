@@ -1,0 +1,214 @@
+.about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tower {
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+}
+
+.banner {
+    position: relative;
+}
+
+@media (max-width: 1050px) {
+    .tower {
+        display: none;
+    }
+}
+
+.bg_founder {
+    margin-right: 4rem;
+    width: 400px;
+    height: 400px;
+    background-color: #E9F8FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+
+}
+
+.balram {
+    font-size: 30px;
+    background: linear-gradient(97.22deg, #fbdc9a 11.78%, #FF8CC7 30.22%, #544AFF 51.38%, #6897D5 74.16%, #7EEFA6 100.2%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text ;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.founder_quote {
+    width: 300px;
+}
+
+.founder_section {
+    display: flex;
+    align-items: center;
+}
+
+.founder {
+    margin-top: 1rem;
+    width: 250px;
+}
+
+@media (max-width : 900px) {
+    .founder_section{
+        flex-direction: column;
+    }
+
+    .founder_quote {
+        margin-top: 3rem;
+    }
+
+    .bg_founder {
+        margin: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .balram {
+        font-size: 24px;
+    }
+
+    .founder {
+        width: 200px;
+    }
+}
+
+.pipe {
+    width: 40px;
+    height: 1300px;
+    border-radius: 3rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFD2AC 10.45%, #FFB5B7 19.79%, #1B4BE2 42.71%, #75DFB9 63.54%, #98FF92 77.08%, #FFFFFF 90.62%);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    /* position: relative; */
+}
+
+
+
+.dot {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, 500%);
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.journey {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.date {
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px ;
+    text-align: end;
+    margin-top: 8rem;
+    margin-right: 2rem;
+    height: 100px;
+}
+
+.event {
+    font-size: smaller;
+    width: 150px;
+    text-align:start;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    height: 100px;
+}
+
+@media (max-width:370px){
+    .dot {
+        transform: translate(-5%, -50%);
+        width: .5rem;
+        height: .5rem;
+    }
+}
+
+
+.about_box {
+    border-radius: 4rem;
+    width: 540px;
+    height: 540px;
+    background-color: #E9F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we_are_luxigro {
+    font-size: 96px;
+    font-weight: 700;
+    color: #A6E1FF;
+}
+
+.blue_luxigro {
+    color: #1B4BE2;
+}
+
+.box_container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.about_us_text {
+    display: flex;
+    font-size: 24px;
+    width: 600px;
+    margin-left: 3rem;
+}
+
+@media(max-width: 1300px) {
+  .box_container {
+      flex-direction: column;
+  }
+
+  .about_us_text {
+      max-width: 600px;
+      width: auto;
+    margin-top: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+  }
+
+
+}
+
+
+@media(max-width: 600px) {
+  
+  
+    .about_us_text {
+        width: fit-content;
+        font-size: 20px;
+    }
+  
+    .about_box {
+        justify-content: flex-start;
+        width: 90%;
+        height: 350px;
+    }
+
+    .we_are_luxigro {
+        font-size: 64px ;
+        margin-left: 3rem;
+    }
+  
+  }
