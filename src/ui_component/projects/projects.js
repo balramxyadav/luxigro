@@ -15,12 +15,12 @@ export default function Projects() {
         <div className="our_project">Our projects</div>
         <div className="project_grid">
 
-        <Project img="img_1.jpeg" title="Bhagan bigha"/>
-        <Project img="img2.jpeg" title="Patna"/>
-        <Project img="img3.jpeg" title="Kaladham"/>
-        <Project img="img4.jpeg" title="P-3"/>
-        <Project img="img5.jpeg" title="Beta"/>
-        <Project img="img7.jpeg" title="Kasna"/>
+        <Project img="/images/img_1.jpeg" title="Bhagan bigha"/>
+        <Project img="/images/img2.jpeg" title="Patna"/>
+        <Project img="/images/img3.jpeg" title="Kaladham"/>
+        <Project img="/images/img4.jpeg" title="P-3"/>
+        <Project img="/images/img5.jpeg" title="Beta"/>
+        <Project img="/images/img7.jpeg" title="Kasna"/>
 
         </div>
 

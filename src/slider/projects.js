@@ -11,7 +11,7 @@ export default function Projects(props) {
     const slider = SliderData.map((data) => {
         return(
             <div className="slider_container"> 
-                <img className="project_img" src={data.img} alt="" cla />
+                <img className="project_img" src={data.img} alt="Project image"  />
 
                     <div className="content">
                         <div className="project_text">{data.content}</div>
