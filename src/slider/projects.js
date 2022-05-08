@@ -3,7 +3,6 @@ import controlRight from "./control_right.svg"
 import controlLeft from "./control_left.svg"
 import SliderData from "./sliderData"
 import { Link } from "react-router-dom";
-import l from "../ui_component/icon/tower.png"
 
 export default function Projects(props) {
 
@@ -12,11 +11,12 @@ export default function Projects(props) {
     const slider = SliderData.map((data) => {
         return(
             <div className="slider_container"> 
-                <img className="project_img" src={l} alt="" />
+                <img className="project_img" src={data.img} alt="" cla />
 
                     <div className="content">
                         <div className="project_text">{data.content}</div>
                         <div className="project_title">{data.title}</div>
+                        <div className="project_location">{data.location}</div>
                         {/* <Link className="border_btn_project" to="#" > See all</Link> */}
                     </div>
             </div>

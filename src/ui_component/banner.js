@@ -14,7 +14,7 @@ export default function Banner(props) {
                 </h1>
                 <img src={props.img} alt="" className="neon_img"/>
                 <div>
-                <Link className="btn" to="/#project">
+                <Link className="btn" to="/project">
                 Our work
                 <img src={arrow} alt="" className="arrow"/>
                 </Link>

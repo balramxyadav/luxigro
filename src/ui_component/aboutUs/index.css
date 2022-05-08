@@ -23,7 +23,6 @@
 }
 
 .bg_founder {
-    margin-right: 4rem;
     width: 400px;
     height: 400px;
     background-color: #E9F8FF;
@@ -72,6 +71,11 @@
         margin: 0;
         width: 300px;
         height: 300px;
+        margin-bottom: 3rem;
+    }
+
+    .founders {
+        flex-direction: column;
     }
 
     .balram {
@@ -143,29 +147,21 @@
 
 .about_box {
     border-radius: 4rem;
-    width: 540px;
-    height: 540px;
+    width: 450px;
+    height: 450px;
     background-color: #E9F7FF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.we_are_luxigro {
-    font-size: 96px;
-    font-weight: 700;
-    color: #A6E1FF;
-}
 
-.blue_luxigro {
-    color: #1B4BE2;
-}
 
 .box_container {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .about_us_text {
@@ -211,4 +207,10 @@
         margin-left: 3rem;
     }
   
+  }
+
+  .founders {
+      width: 1000px;
+      display: flex;
+      justify-content: space-around;
   }

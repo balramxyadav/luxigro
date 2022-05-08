@@ -21,7 +21,9 @@ export default function Footer() {
             </div> */}
             
             <div className="social_media_icon">
+                    <a href="https://www.facebook.com/Luxigro-111827417959799/">
                     <img src={fb} alt="" className="fb_icon"/>
+                    </a>
 
                     <a href="https://www.instagram.com/luxigro/">
                     <img src={insta} alt="" className="insta_icon"/>

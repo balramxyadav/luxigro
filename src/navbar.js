@@ -23,7 +23,7 @@ export default function Navbar() {
 
 
                 // }} 
-                className="title_nav" to="#project"  >
+                className="title_nav" to="project"  >
                     Projects
                 </NavLink>
 

@@ -3,27 +3,31 @@
 const data = [
     
     {
-    content :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus deserunt quos quis temporibus accusantium cum ducimus facere neque voluptatem rem similique corrupti, sapiente, in assumenda expedita maiores, fugiat tempora?" ,
-    title: "Project A",
-    img: "../ui_component/icon/house.png"
+    content :"This project is under ahluwalia Contracts we are sub-contrators in this project. It is situated in bhagan bigha rahui bihar spaning in kilometers " ,
+    title: "Dental collage & hospital ",
+    img: "img_1.jpeg",
+    location: "Bhangan bigha, Rahui, Nalanda Bihar"
     },
 
     {
-        content :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus deserunt quos quis temporibus accusantium cum ducimus facere neque voluptatem rem similique corrupti, sapiente, in assumenda expedita maiores, fugiat tempora?" ,
-        title: "Project B",
-        img: "https://images.unsplash.com/photo-1570290870545-277c2f5ad465?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+        content :"Patna College and Hospital is situated in its own building and is located in the heart of the city on the bank of the holy river Ganga adjacent to PMCH on main Ashok Rajpath. " ,
+        title: "Patna medical collage",
+        img: "img2.jpeg",
+        location: "Patna"
         },
     
         {
-            content :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus deserunt quos quis temporibus accusantium cum ducimus facere neque voluptatem rem similique corrupti, sapiente, in assumenda expedita maiores, fugiat tempora?" ,
-            title: "Project C",
-            img: "https://images.unsplash.com/photo-1577942948749-a3dbb5c6db0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            content :"It is a Housing society for only artists built on 200 to 300 sq meter plots located in Knowledge Park II, Greater Noida, Uttar Pradesh" ,
+            title: "Kaladham",
+            img: "img3.jpeg",
+            location: "Knowledge Park II, Greater Noida, Uttar Pradesh 201310"
             },
 
             {
                 content :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus deserunt quos quis temporibus accusantium cum ducimus facere neque voluptatem rem similique corrupti, sapiente, in assumenda expedita maiores, fugiat tempora?" ,
-                title: "Project D",
-                img: "https://images.unsplash.com/photo-1562925246-25f01be5471c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1554&q=80"
+                title: "P-3",
+                img: "img4.jpeg",
+                location: "P-3 Greater Noida, Uttar Pradesh 201310"
                 },
 ]
 

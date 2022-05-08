@@ -34,21 +34,28 @@ export default function AboutUs() {
             <WeAreLuxigro/>
 
 
-            <div className="heading">Meet our founder</div>
+            <div className="heading">Meet our founders</div>
 
-            <div className="founder_section">
+            <div className="founders">
+                <div className="founder_section">
 
             <div className="bg_founder">
                 <img src={profile} alt="" className="founder" />
                 <div className="balram">Balram Yadav</div>
             </div>
 
-            <div className="founder_quote">Nihil est voluptas minima et aut. Labore minus magnam porro. Aut et optio dolorem rem.
-Nihil est voluptas minima et aut. Labore minus magnam porro.
-
-
-<br /> <b>-Balram Yadav</b> </div>
             </div>
+            <div className="founder_section">
+
+            <div className="bg_founder">
+                <img src={profile} alt="" className="founder" />
+                <div className="balram">Rajesh Yadav</div>
+            </div>
+                
+            </div>
+            </div>
+
+            
 
             <div className="heading">Our journey</div>
 
